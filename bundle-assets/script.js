@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let a=+assets.value,s=+size.value;if(!a||!s){res.innerText='Enter values';return;}res.innerText=`Avg asset size: ${(s/a).toFixed(2)} MB`; }

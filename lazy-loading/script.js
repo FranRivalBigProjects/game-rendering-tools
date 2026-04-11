@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let a=assets.value.split('\n').filter(x=>x.trim()).length;res.innerText=`Lazy load candidates: ${a}`;}

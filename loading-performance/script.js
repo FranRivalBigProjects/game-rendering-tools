@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let a=+assets.value,t=+time.value;if(!a||!t){res.innerText='Enter values';return;}res.innerText=`Assets/sec: ${(a/t).toFixed(2)}`;}
